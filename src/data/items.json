@@ -3,18 +3,54 @@
     "id": 1,
     "name": "Book",
     "price": 10.99,
-    "imgUrl": "/img/desk.jpg"
+    "imgUrl": "/img/9.jpg"
   },
   {
     "id": 2,
     "name": "Book",
     "price": 10.99,
-    "imgUrl": "/img/desk.jpg"
+    "imgUrl": "/img/8.jpg"
   },
   {
     "id": 3,
     "name": "Book",
     "price": 10.99,
-    "imgUrl": "/img/desk.jpg"
+    "imgUrl": "/img/7.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "/img/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "/img/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "/img/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "/img/3.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "/img/2.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Book",
+    "price": 10.99,
+    "imgUrl": "/img/1.jpg"
   }
 ]

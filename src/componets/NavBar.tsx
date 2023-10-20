@@ -77,11 +77,12 @@ function NavBar() {
         </div>
       </div>
       {isOpen ? (
-        <div
-          className="absolute w-full h-full bg-[#858585ad] z-10 cursor-pointer"
-          onClick={() => showCart()}
-        >
-          <div className="bg-white h-full w-[400px] absolute right-0 border-t border-gray-200">
+        <div className="absolute w-full h-full">
+          <div
+            className="absolute w-full h-full bg-[#858585ad] cursor-pointer"
+            onClick={() => showCart()}
+          ></div>
+          <div className="bg-white h-full w-[400px] absolute right-0 border-t border-gray-200 z-20">
             <div className="flex items-center justify-between px-[10px] pt-[10px]">
               <p className="text-[30px] font-[600]">Cart</p>
               <button className="text-[20px]" onClick={() => showCart()}>
@@ -104,7 +105,7 @@ function NavBar() {
                     <div className="flex flex-col">
                       <span>
                         {item.name}
-                        <span className="text-[12px] text-gray-600">
+                        <span className="text-[12px] text-gray-600 pl-[5px]">
                           x {getItemQuantity(item.id)}
                         </span>
                       </span>
