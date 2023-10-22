@@ -82,7 +82,7 @@ function NavBar() {
             className="absolute w-full h-full bg-[#858585ad] cursor-pointer"
             onClick={() => showCart()}
           ></div>
-          <div className="bg-white h-full w-[400px] absolute right-0 border-t border-gray-200 z-20">
+          <div className="bg-white h-full w-[400px] absolute right-0 border-t border-gray-200 z-20 overflow-scroll">
             <div className="flex items-center justify-between px-[10px] pt-[10px]">
               <p className="text-[30px] font-[600]">Cart</p>
               <button className="text-[20px]" onClick={() => showCart()}>

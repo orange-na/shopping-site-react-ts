@@ -7,13 +7,13 @@
   },
   {
     "id": 2,
-    "name": "Book",
+    "name": "Chair",
     "price": 10.99,
     "imgUrl": "/img/8.jpg"
   },
   {
     "id": 3,
-    "name": "Book",
+    "name": "sofa-furniture",
     "price": 10.99,
     "imgUrl": "/img/7.jpg"
   },
